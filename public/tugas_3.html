@@ -1,0 +1,80 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex_bootstrap_aisyahrahmawati_5026201069</title>
+</head>
+
+<style>
+.container{
+  width: 600px;
+  height: 300px;
+  border: 5px solid rgba(51, 51, 51, 0);
+  margin: 30px auto;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: unset;
+}
+
+h1 {
+  font-size: medium;
+  text-align: center;
+}
+.container div{
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+  flex-grow: 1;
+}
+
+.container div.satu {
+  flex-grow: 30;
+  align-self: stretch;
+}
+
+.container div.lima {
+  flex-grow: 8;
+  align-self: stretch;
+}
+
+.container div.enam {
+  flex-grow: 10;
+  align-self: stretch;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ddd;
+  font-size: medium;
+  text-align: center;
+  line-height: 1.5;
+  padding-bottom: 1000px;
+}
+
+.satu { background-color: rgb(149, 201, 201);}
+.dua { background-color: rgb(173, 149, 201);}
+.tiga { background-color: rgb(201, 149, 179);}
+.empat { background-color: rgb(149, 201, 201);}
+.lima { background-color: rgb(173, 149, 201);}
+.enam { background-color: rgb(201, 149, 179);}
+
+</style>
+
+  <body>
+    <h1>Latihan Flex Bootstrap</h1>
+    <div class="container">
+      <div class="satu">Flex item 1 </div>
+      <div class="dua">Flex item 2</div>
+      <div class="tiga">Flex item 3</div>
+      <div class="empat">Flex item 4</div>
+      <div class="lima">Flex item 5</div>
+      <div class="enam">Flex item 6</div>
+
+  </body>
+
+</html>
