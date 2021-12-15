@@ -75,3 +75,10 @@ Route::get('/blueray/hapus/{id}','BluerayController@hapus');
 Route::get('/blueray/cari','BluerayController@cari');
 
 Route::get('/blueray/detail/{id}','BluerayController@view');
+
+//Route nilaikuliah
+Route::get('/nilaikuliah','NilaiKuliahController@index');
+
+Route::get('/nilaikuliah/tambah','NilaiKuliahController@tambah');
+
+Route::post('/nilaikuliah/store','NilaiKuliahController@store');
